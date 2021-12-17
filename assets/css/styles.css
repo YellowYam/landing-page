@@ -1,0 +1,139 @@
+/*Universal selector*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+}
+
+/* Setup */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 10;
+  }
+
+body{
+    padding-top: 100px;
+    width: 70%;
+    min-width: 800px;
+    margin: 0 auto;  
+}
+
+/*Header and header elements */
+header {
+    position: fixed;
+    margin-left: -76px;
+    z-index: 1;
+    top: 0px;
+    height: 100px;
+    width: 80%;
+    background-color: blue;
+    border-radius: 15px;
+    border: solid grey 3px;
+}
+
+
+#name_logo{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 30px;
+    padding: 10px 50px 10px 10px;
+    background-color: white;
+    border: solid grey 3px;
+}
+
+nav{
+    display: inline-block;
+    margin-left: 175px;
+    margin-top: 25px;
+    padding-right: 30px;
+    border: solid grey 3px;
+    background-color: white;
+    color: red;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a{
+   text-decoration: none;
+   color: darkblue;
+}
+
+nav li a:hover{
+    background-color: beige;
+}
+
+/* Body content */
+
+.content {                           /*for content boxes*/
+  position: relative;  
+  background-color: wheat;
+  border: solid grey 3px;
+  display: inline-block;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+h2 {
+    position: relative;
+    color: red;
+    text-align: center;
+    border: solid grey 3px;
+    width: 70%;
+    margin: 10px;
+    margin-top: -5px;
+    background-color: white;
+}
+
+p{
+    margin: 10px;
+    width: 50%;
+    float: left;
+    clear: both;
+    background-color: pink;
+    
+}
+
+
+aside {
+    
+    background-color: powderblue;
+    padding: 20px;
+    margin-top: -300px ;
+    float: right;
+    clear: both;
+    width: 30%;
+    height: 100px;
+    border: solid grey 3px;
+}
+
+aside img{
+    position: absolute;
+    margin-left: 50px;
+    height: 200px;
+    width: 200px;
+    border: solid grey 3px;
+}
+
+figcaption{
+    position: absolute;
+    padding: 5px;
+    margin-top: 220px;
+    margin-left: 100px;
+    border: solid grey 3px;
+    color: darkblue;
+    background-color: powderblue;
+}
+
+/*Form styles*/
+input, button{
+    background-color: white;
+}
+
+button:hover{
+    background-color: beige;
+}
+
+
